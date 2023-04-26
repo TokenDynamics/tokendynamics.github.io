@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Plus Jakarta Sans';
+  }
+}
+
+.fancy-magic-bg {
+  background: radial-gradient(129.83% 254.78% at 8.77% 94.77%, #4197E8 0%, rgba(0, 0, 0, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, #0F0F0F;
+}
+
